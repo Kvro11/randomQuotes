@@ -71,7 +71,8 @@ const App = () => {
 
   return (
     <div
-      className={`w-screen h-screen ${bgColor} flex justify-center items-center`}
+      className={`w-screen h-screen ${bgColor} flex justify-center items-center
+        transition-colors duration-700`}
     >
       <ToastContainer />
       <QuotesContainer
