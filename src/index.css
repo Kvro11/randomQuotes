@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", sans-serif;
+  font-display: swap;
 
   /* Hide scrollbar but allow scrolling */
   overflow: auto; /* Enables scrolling */
