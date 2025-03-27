@@ -74,8 +74,9 @@ const QuotesContainer = (props) => {
           ))}
         </div>
         <button
-          className={`py-2 px-4 ${bgColor} bg-opacity-50 rounded-lg transition ease-in-out 
-            duration-200 hover:scale-90 font-semibold `}
+          className={`py-2 px-4 relative ${bgColor} bg-opacity-50 rounded-lg 
+    transition-transform transition-opacity ease-in-out 
+    duration-200 hover:scale-90 hover:opacity-80 font-semibold`}
           onClick={handleNewQuotes}
         >
           New Quotes
